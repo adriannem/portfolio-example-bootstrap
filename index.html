@@ -9,7 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script type="text/javascript" src="js/jquery-3.0.0.js"></script>
+    <script   src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 
@@ -32,7 +32,7 @@
         <div class="colored-background">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="http://p-hold.com/fashion/950/400" class="img-responsive">
+                    <img src="http://p-hold.com/fashion/950/400" class="img-responsive" alt = "Large hero image">
                 </div>
             </div>
             <div class="row no-margin">
@@ -42,19 +42,19 @@
             </div>
             <div class="row text-center no-margin">
                 <div class="col-md-6">
-                    <img src="http://p-hold.com/fashion/437/196" class="img-responsive">
+                    <img src="http://p-hold.com/fashion/437/196" class="img-responsive" alt="Placeholder image" data-toggle="modal" data-target="#appify">
                     <h3 class="text-uppercase">APPIFY</h3>
                     <p><a href="http://github.com">Link to project</a></p>
                 </div>
                 <div class="col-md-6">
-                    <img src="http://p-hold.com/fashion/437/196" class="img-responsive">
+                    <img src="http://p-hold.com/classy/437/196" class="img-responsive" alt="Placeholder image" data-toggle="modal" data-target="#sunflower">
                     <h3 class="text-uppercase">SUNFLOWER</h3>
                     <p><a href="http://github.com">Link to project</a></p>
                 </div>
             </div>
             <div class="row text-center no-margin">
                 <div class="col-md-6">
-                    <img src="http://p-hold.com/fashion/437/196" class="img-responsive">
+                    <img src="http://p-hold.com/lipstick/437/196" class="img-responsive" alt="Placeholder image" data-toggle="modal" data-target="#bokeh">
                     <h3 class="text-uppercase">BOKEH</h3>
                     <p><a href="http://github.com">Link to project</a></p>
                 </div>
@@ -63,6 +63,61 @@
             </div>
         </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="appify" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">APPIFY</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://p-hold.com/fashion/437/196" alt="Placeholder image">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Modal -->
+    <div class="modal fade" id="sunflower" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel2">SUNFLOWER</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://p-hold.com/classy/437/196" alt="Placeholder image">
+                    This was my second project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Modal -->
+    <div class="modal fade" id="bokeh" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel3">BOKEH</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://p-hold.com/lipstick/437/196" alt="Placeholder image">
+                    This was my third project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
